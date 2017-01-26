@@ -15,6 +15,7 @@ import MapPolygon from './MapPolygon';
 import MapCircle from './MapCircle';
 import MapCallout from './MapCallout';
 import MapUrlTile from './MapUrlTile';
+import MapWmsTile from './MapWmsTile';
 import AnimatedRegion from './AnimatedRegion';
 import {
   contextTypes as childContextTypes,
@@ -668,6 +669,7 @@ MapView.Polyline = MapPolyline;
 MapView.Polygon = MapPolygon;
 MapView.Circle = MapCircle;
 MapView.UrlTile = MapUrlTile;
+MapView.WmsTile = MapWmsTile;
 MapView.Callout = MapCallout;
 Object.assign(MapView, ProviderConstants);
 MapView.ProviderPropType = PropTypes.oneOf(Object.values(ProviderConstants));
